@@ -13,10 +13,15 @@ The goal is to build a predictive model for the median value of owner-occupied h
 The analysis involves the following steps:
 
 Data Loading: Reading the Boston Housing dataset into a Spark DataFrame.
+
 Data Preprocessing: Assembling features and scaling them.
+
 PCA: Applying Principal Component Analysis for dimensionality reduction.
+
 Linear Regression: Building and evaluating a linear regression model.
+
 Model Evaluation: Assessing the performance of the model using RMSE and R-squared metrics.
+
 Hyperparameter Tuning: Using CrossValidator for hyperparameter tuning.
 
 
